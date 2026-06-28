@@ -1,0 +1,11 @@
+# Config utilisateur générée au runtime (chemins/raccourcis personnels)
+CopieColleClaude.ini
+
+# Réglages locaux Claude Code (machine-spécifiques)
+.claude/settings.local.json
+
+# Artefacts Windows / éditeurs
+Thumbs.db
+desktop.ini
+*.bak
+*.tmp
