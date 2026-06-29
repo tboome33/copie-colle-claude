@@ -62,6 +62,8 @@ Les réglages sont accessibles via **clic droit sur l'icône → Parametres** :
 - **Dossier de sauvegarde** : où sont écrits les fichiers `.png` (le dossier est créé s'il n'existe pas).
 - **Raccourci clavier** : la combinaison qui déclenche la capture.
 
+> ⚠️ **Indiquez un chemin valide** pour le dossier de sauvegarde — un emplacement où vous avez le droit d'écrire (ex. `C:\temp\` ou `%USERPROFILE%\Documents\ClaudeImages\`). Si le chemin est invalide ou non accessible en écriture (lecteur inexistant, dossier protégé), la capture échoue et l'image n'est pas enregistrée. Terminez le chemin par un `\`.
+
 Les valeurs sont persistées dans `CopieColleClaude.ini` (créé automatiquement au premier lancement) :
 
 ```ini
@@ -161,6 +163,8 @@ Settings are reachable via **right-click the icon → Parametres**:
 
 - **Save folder**: where `.png` files are written (created if it doesn't exist).
 - **Hotkey**: the combination that triggers the capture.
+
+> ⚠️ **Provide a valid path** for the save folder — a location you're allowed to write to (e.g. `C:\temp\` or `%USERPROFILE%\Documents\ClaudeImages\`). If the path is invalid or not writable (non-existent drive, protected folder), the capture fails and the image isn't saved. End the path with a `\`.
 
 Values are persisted in `CopieColleClaude.ini` (created automatically on first launch):
 
